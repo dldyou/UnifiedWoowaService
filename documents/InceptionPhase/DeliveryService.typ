@@ -126,5 +126,5 @@
         [대체 흐름], [],  
     )
     == Conceptual Model
-    #image("img/image.png", width: 10%) // sample image
+    #align(center, image("img/delivery_service_conceptual_model.svg", width: 70%)) 
 ]
