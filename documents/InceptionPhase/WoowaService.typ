@@ -1,7 +1,7 @@
 #let WoowaService = [
     = 배민 서비스 
     == UseCase
-    #image("img/woowa_system_usecase.svg", width: 90%)
+    #align(center, image("img/woowa_system_usecase.svg", width: 90%))
     == Actor 
     - 가게 (Store)
         - 서비스 등록 요청하기, 메뉴 등록하기, 주문 수락&거절하기
@@ -46,7 +46,7 @@
 
     == UseCase Description
     === UC1: 주문 요청하기 (Place Order)
-    #table(align: center, 
+    #table(align: left, 
         columns: 2, 
         [*UseCase*], [*Description*],
         [이름], [주문 요청하기 (Place Order)],
@@ -73,7 +73,7 @@
     )
 
     === UC2: 결제 요청하기 (Request Payment)
-    #table(align: center, 
+    #table(align: left, 
         columns: 2, 
         [*UseCase*], [*Description*],
         [이름], [결제 요청하기 (Request Payment)],
@@ -90,7 +90,7 @@
     )
 
     === UC3: 주문 취소하기 (Cancel Order)
-    #table(align: center, 
+    #table(align: left, 
         columns: 2, 
         [*UseCase*], [*Description*],
         [이름], [주문 취소하기 (Cancel Order)],
@@ -111,7 +111,7 @@
     )
 
     === UC4: 결제 취소를 요청하기 (Request Cancel Payment)
-    #table(align: center, 
+    #table(align: left, 
         columns: 2, 
         [*UseCase*], [*Description*],
         [이름], [주문 취소하기 (Cancel Order)],
@@ -130,7 +130,7 @@
     )
 
     === UC5: 주문 확인하기 (Check Order Status)
-    #table(align: center, 
+    #table(align: left, 
         columns: 2, 
         [*UseCase*], [*Description*],
         [이름], [주문 확인하기 (Check Order Status)],
@@ -147,7 +147,7 @@
     )
 
     === UC6: 서비스 등록 요청하기 (Request Service Registration)
-    #table(align: center, 
+    #table(align: left, 
         columns: 2, 
         [*UseCase*], [*Description*],
         [이름], [서비스 등록 요청하기 (Request Service Registration)],
@@ -165,7 +165,7 @@
     )
 
     === UC7: 메뉴 등록하기 (Register Menu)
-    #table(align: center, 
+    #table(align: left, 
         columns: 2, 
         [*UseCase*], [*Description*],
         [이름], [메뉴 등록하기 (Register Menu)],
@@ -182,7 +182,7 @@
     )
 
     === UC8: 주문 수락하기 (Accept Order)
-    #table(align: center, 
+    #table(align: left, 
         columns: 2, 
         [*UseCase*], [*Description*],
         [이름], [주문 수락하기 (Accept Order)],
@@ -199,7 +199,7 @@
     )
 
     === UC9: 주문 거절하기 (Reject Order)
-    #table(align: center, 
+    #table(align: left, 
         columns: 2, 
         [*UseCase*], [*Description*],
         [이름], [주문 거절하기 (Reject Order)],
@@ -216,7 +216,7 @@
     )
 
     === UC10: 서비스 등록 요청 수락하기 (Accept Service Registration Request)
-    #table(align: center, 
+    #table(align: left, 
         columns: 2, 
         [*UseCase*], [*Description*],
         [이름], [서비스 등록 요청 수락하기 (Accept Service Registration Request)],
@@ -234,7 +234,7 @@
     )
 
     === UC11: 서비스 등록 요청 거절하기 (Reject Service Registration Request)
-    #table(align: center, 
+    #table(align: left, 
         columns: 2, 
         [*UseCase*], [*Description*],
         [이름], [서비스 등록 요청 거절하기 (Reject Service Registration Request)],
@@ -252,7 +252,7 @@
     )
 
     == Conceptual Model
-    #image("img/woowa_service_conceptual_model.drawio.svg", width: 100%) // sample image
+    #align(center, image("img/woowa_service_conceptual_model.drawio.svg", width: 100%))
 ]
 
 
