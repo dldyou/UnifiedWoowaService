@@ -1,7 +1,7 @@
 #let WoowaService = [
     = 배민 서비스 
     == UseCase
-    #align(center, image("img/woowa_system_usecase.svg", width: 90%))
+    #align(center, image("img/woowa_system_usecase.svg", width: 70%))
     == Actor 
     - 가게 (Store)
         - 서비스 등록 요청하기, 메뉴 등록하기, 주문 수락&거절하기
