@@ -1,5 +1,7 @@
 #let PaymentService = [
-    = 결제 서비스 
+    = 결제 서비스
+    == Use Case
+    #align(center, image("img/payment_system_usecase.svg", width: 100%)) 
     == Actor
     - 배민 서비스 (WoowaService)
         - 결제 요청, 결제 취소
