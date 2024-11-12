@@ -58,6 +58,4 @@
                 2.1 결제 서비스는 결제 취소 실패 메세지를 배민 서비스에 전달한다.
         ],  
     )
-    == Conceptual Model
-    #align(center, image("img\payment_conceptual_model.svg", width: 70%))
 ]

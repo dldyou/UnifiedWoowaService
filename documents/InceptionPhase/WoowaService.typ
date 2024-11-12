@@ -250,9 +250,6 @@
         ], 
         [대체 흐름], [],  
     )
-
-    == Conceptual Model
-    #align(center, image("img/woowa_service_conceptual_model.drawio.svg", width: 100%))
 ]
 
 
