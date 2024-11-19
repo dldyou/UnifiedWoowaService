@@ -1,6 +1,7 @@
 #let End = [
 = 역할 분담
-#table(align: center, columns: 2, 
+#table(align: left, 
+    columns: (auto, 1fr),  
     [*이름*], [*역할*],
     [곽유나], [배민 서비스 구현, 아키텍처 설계],
     [윤찬규], [배달 대행 서비스 구현, 아키텍처 설계],

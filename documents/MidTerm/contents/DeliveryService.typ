@@ -27,7 +27,7 @@
 ==== UseCase Description 
 - *UC1: 배달 요청하기 (Request Delivery by Store)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [배달 요청하기 (Request Delivery by Store)],
     [범위], [배달 대행 서비스], 
@@ -44,7 +44,7 @@
 )
 - *UC2: 음식 전달하기 (Offer Food)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [음식 전달하기 (Offer Food)],
     [범위], [배달 대행 서비스], 
@@ -64,7 +64,7 @@
 )
 - *UC3: 배달 승인하기 (Approve Delivery)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [배달 승인하기 (Approve Delivery)],
     [범위], [배달 대행 서비스], 
@@ -80,8 +80,8 @@
     [대체 흐름], [],  
 )
 - *UC4: 음식 배달하기 (Deliver Food)*
-#table(align: left, 
-    columns: 2, 
+#table(align: left,
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [음식 배달하기 (Deliver Food)],
     [범위], [배달 대행 서비스], 
@@ -98,7 +98,7 @@
 )
 - *UC5: 기사 요청하기 (Request Delivery Man)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [기사 요청하기 (Request Delivery Man)],
     [범위], [배달 대행 서비스], 
@@ -116,7 +116,7 @@
 )
 - *UC6: 기사 배정하기 (Assign Delivery Man)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [기사 배정하기 (Assign Delivery Man)],
     [범위], [배달 대행 서비스], 

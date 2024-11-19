@@ -1,6 +1,7 @@
 #let Intro = [
 = 팀원 구성
-#table(align: center, columns: 2, 
+#table(align: left, 
+    columns: (auto, 1fr), 
     [*이름*], [*학번*],
     [곽유나], [202011252],
     [윤찬규], [202211328],
@@ -14,7 +15,8 @@
 == HW Platform 
 Jar 파일로 제공되므로 하드웨어 플랫폼 영향을 받지 않는다. 
 == SW Platform
-#table(align: center, columns: 2,
+#table(align: left, 
+    columns: (auto, 1fr), 
     [*Language*], [Java],
     [*Runtime*], [JDK 17],
 )

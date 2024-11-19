@@ -37,7 +37,8 @@
 ==== UseCase Description
 - *UC1: 주문 요청하기 (Place Order)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
+
     [*UseCase*], [*Description*],
     [이름], [주문 요청하기 (Place Order)],
     [범위], [배달의 민족 서비스], 
@@ -64,7 +65,7 @@
 
 - *UC2: 결제 요청하기 (Request Payment)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [결제 요청하기 (Request Payment)],
     [범위], [배달의 민족 서비스], 
@@ -81,7 +82,7 @@
 
 - *UC3: 주문 취소하기 (Cancel Order)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [주문 취소하기 (Cancel Order)],
     [범위], [배달의 민족 서비스], 
@@ -102,7 +103,7 @@
 
 - *UC4: 결제 취소를 요청하기 (Request Cancel Payment)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [주문 취소하기 (Cancel Order)],
     [범위], [배달의 민족 서비스], 
@@ -121,7 +122,7 @@
 
 - *UC5: 주문 확인하기 (Check Order Status)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [주문 확인하기 (Check Order Status)],
     [범위], [배달의 민족 서비스], 
@@ -138,7 +139,7 @@
 
 - *UC6: 서비스 등록 요청하기 (Request Service Registration)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [서비스 등록 요청하기 (Request Service Registration)],
     [범위], [배달의 민족 서비스], 
@@ -156,7 +157,7 @@
 
 - *UC7: 메뉴 등록하기 (Register Menu)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [메뉴 등록하기 (Register Menu)],
     [범위], [배달의 민족 서비스], 
@@ -173,7 +174,7 @@
 
 - *UC8: 주문 수락하기 (Accept Order)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [주문 수락하기 (Accept Order)],
     [범위], [배달의 민족 서비스], 
@@ -190,7 +191,7 @@
 
 - *UC9: 주문 거절하기 (Reject Order)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [주문 거절하기 (Reject Order)],
     [범위], [배달의 민족 서비스], 
@@ -207,7 +208,7 @@
 
 - *UC10: 서비스 등록 요청 수락하기 (Accept Service Registration Request)*
 #table(align: left, 
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [서비스 등록 요청 수락하기 (Accept Service Registration Request)],
     [범위], [배달의 민족 서비스], 
@@ -224,8 +225,8 @@
 )
 
 - *UC11: 서비스 등록 요청 거절하기 (Reject Service Registration Request)*
-#table(align: left, 
-    columns: 2, 
+#table(align: left,
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [서비스 등록 요청 거절하기 (Reject Service Registration Request)],
     [범위], [배달의 민족 서비스], 

@@ -21,7 +21,7 @@
 ==== UseCase Description
 - *UC1: 결제 수단 인증하기 (Verify Payment Method)*
 #table(align: left,
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [결제 수단 인증하기 (Verify Payment Method)],
     [범위], [결제 서비스], 
@@ -39,7 +39,7 @@
 )
 - *UC2: 결제 요청 승인하기 (Accept Payment Request)*
 #table(align: left,
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [결제 요청 승인하기 (Accept Payment Request)],
     [범위], [결제 서비스], 
@@ -57,7 +57,7 @@
 )
 - *UC3: 결제 요청 거절하기 (Reject Payment Request)*
 #table(align: left,
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [결제 요청 거절하기 (Reject Payment Request)],
     [범위], [결제 서비스], 
@@ -75,7 +75,7 @@
 )
 - *UC4: 결제 처리하기 (Process Payment)*
 #table(align: left,
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [결제 처리하기 (Process Payment)],
     [범위], [결제 서비스], 
@@ -97,7 +97,7 @@
 )
 - *UC5: 결제 취소하기 (Cancel Payment)*
 #table(align: left,
-    columns: 2, 
+    columns: (auto, 1fr), 
     [*UseCase*], [*Description*],
     [이름], [결제 취소하기 (Cancel Payment)],
     [범위], [결제 서비스], 
