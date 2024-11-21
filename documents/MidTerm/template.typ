@@ -43,7 +43,7 @@
     ),
   )
   set par(justify: true)
-  outline(title: "목 차", depth: 5, indent: 1em, fill: repeat(text(weight: 700)[.#h(0.5em)]))
+  outline(title: "목 차", depth: 3, indent: 1em, fill: repeat(text(weight: 700)[.#h(0.5em)]))
 
   body
 }
