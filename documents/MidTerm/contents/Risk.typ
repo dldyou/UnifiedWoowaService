@@ -1,5 +1,8 @@
 #let Risk = [
 = Risk Analysis + Risk Reduction Plan
-== EventBus를 위한 Guava라이브러리 사용
-팀원 모두 Guava라이브러리 사용 경험이 없기 때문에 라이브러리 사용에 있어서 어려움을 겪을 수 있다. https://github.com/google/guava/wiki/EventBusExplained에서 제공하는 설명을 통해 프로젝트에 적용 후 성공적인 반영이 어렵다면 EventBus 대신 서비스에서 서비스의 메서드를 호출하는 방식으로 통신 방식을 변경한다. 
+== Spring 사용
+Spring에 대한 사용 경험이 부족하여 디테일한 측면에서의 구현이 어려울 수 있다. 다른 여러 Spring 프로젝트의 구조를 참고하여 보고, 관련 공부를 진행하여 부족한 부분을 채우고자 한다.
+
+== Kafka 사용
+Kafka에 대한 사용 경험이 없어 사용에 있어 어려움을 겪을 수 있다. 공식 문서인 https://kafka.apache.org/20/documentation.html를 활용하여 프로젝트에 적용해보고자 한다. 
 ]
