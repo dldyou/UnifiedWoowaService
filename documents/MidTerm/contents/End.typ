@@ -13,4 +13,6 @@
 12.16 ~ 12.21: 최종 발표
 = 참고자료 리스트
 카프카 공식 문서: https://kafka.apache.org/documentation/
+= 발표 영상
+https://www.youtube.com/watch?v=EFbJK0uXvpA
 ]
