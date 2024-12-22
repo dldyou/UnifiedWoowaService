@@ -71,8 +71,13 @@ SQL을 직접 작성하지 않고 Spring Data JPA를 활용하여 자동으로 �
 === 결제 서비스
 #align(center, image("img/seq4.png", width: 100%))
 === 배달 서비스
-#align(center, image("img/seq5.png", width: 100%))
-#align(center, image("img/seq6.png", width: 100%))
+#align(center, image("img/deliverySequenceDiagram1.svg", width: 100%))
+#align(center, image("img/deliverySequenceDiagram2.svg", width: 100%))
+#align(center, image("img/deliverySequenceDiagram3.svg", width: 100%))
+#align(center, image("img/deliverySequenceDiagram4.svg", width: 100%))
+#align(center, image("img/deliverySequenceDiagram5.svg", width: 100%))
+#align(center, image("img/deliverySequenceDiagram6.svg", width: 100%))
+
 == Class Diagram
 #align(center, image("img/class_diagram.svg", width: 100%))
 위의 다이어그램은 최종적인 Class diagram이다. svg파일로 되어 있으며 확대 시 선명하게 확인할 수 있다. 아래는 class diagram을 구조화시킨 것이다.
@@ -80,4 +85,13 @@ SQL을 직접 작성하지 않고 Spring Data JPA를 활용하여 자동으로 �
 각 MSA서버들의 구현체를 확인할 수 있다. 배달 서비스, 배민 서비스, 결제 서비스에서 사용하는 클래스들이 정의되어 있으며, 하단에는 공통적으로 사용하는 응답, 도메인과 같은 클래스들이 정의되어 있다.
 #align(center, image("img/class_diagram1.png", width: 100%))
 각 MSA서버들은 내부적으로 계층구조로 설계되어 있다. 따라서 전체 클래스 다이어그램을 통해 이를 확인할 수 있다.
+
+=== Woowa Class Diagram
+#align(center, image("img/woowaClassDiagram.svg", width: 100%))
+
+=== Delivery Class Diagram
+#align(center, image("img/deliveryClassDiagram.svg", width: 100%))
+
+=== Payment Class Diagram
+#align(center, image("img/paymentClassDiagram.svg", width: 70%))
 ]

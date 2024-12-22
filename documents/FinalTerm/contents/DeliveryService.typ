@@ -1,16 +1,16 @@
 #let DeliveryService = [
 === 배달 대행 서비스 
 ==== Use Case Diagram 
-#align(center, image("img/delivery_system_usecase.svg", width: 50%))
+#align(center, image("img/deliveryUseCase.svg", width: 50%))
 ==== Actor 
 - 가게 (Store)
-    - 배달 요청하기, 음식 전달하기, 서비스 등록하기
+    - 배달 요청하기, 배달 현황 확인하기, 음식 전달하기, 서비스 등록 요청하기
 - 기사 (Delivery Man)
-    - 배달 승인하기, 음식 배달하기, 서비스 등록하기
+    - 배달 승인하기, 배달 거절하기, 음식 배달하기, 서비스 등록 요청하기
 - 배달 대행 서비스 (Delivery Service)
     - 배달 요청하기, 기사 배정하기
 - 서비스 관리자 (Service Manager)
-    - 가게 관리, 기사 관리
+    - 서비스 등록 승인하기, 서비스 등록 거절하기기
 ==== UseCase Brief Description 
 - *UC1: 배달 요청하기 (Request Delivery)* 
     - 가게가 주문 승인 이후 배달 대행 서비스에 특정 고객에게로의 배달을 요청한다.
