@@ -64,10 +64,13 @@ Kafka와 마이크로서비스 통신을 위한 이벤트 기반 아키텍처를
 SQL을 직접 작성하지 않고 Spring Data JPA를 활용하여 자동으로 생성되는 레파지토리를 사용하였다.
 
 == Sequence Diagram
+=== 배민 서비스
 #align(center, image("img/seq1.png", width: 100%))
 #align(center, image("img/seq2.png", width: 100%))
 #align(center, image("img/seq3.png", width: 100%))
+=== 결제 서비스
 #align(center, image("img/seq4.png", width: 100%))
+=== 배달 서비스
 #align(center, image("img/deliverySequenceDiagram1.svg", width: 100%))
 #align(center, image("img/deliverySequenceDiagram2.svg", width: 100%))
 #align(center, image("img/deliverySequenceDiagram3.svg", width: 100%))
